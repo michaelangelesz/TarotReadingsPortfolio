@@ -18,20 +18,13 @@ export const Banner = () => {
                     {`Welcome`} <br />
                   </h1>
                   <h2>
-                    {`Full Stack Web Developer`}
-                    <br />
-                    {`UX/UI Design Specialist`}
-                    <br />
-                    {`Modern Web Design`}
+                    {`Insights from the Cards`}
                     <br />
                   </h2><br />
-                  <p>Passion for creating spaces that are not only functional, but beautiful.
-                  </p>
-                  <p>
-                    Let's start designing your website today!
+                  <p>A student of the subject going on 30 years.<br /> Allow me to relay the most accurate message the cards have for your question
                   </p>
                   <br />
-                  <button type="button" onClick={() => window.open('https://www.linkedin.com/in/michael-m-weisphal/')}>LinkedIn</button>
+                  <button type="button" onClick={() => window.open('https://venusandmarsrx.tumblr.com/tagged/sample')}>Sample Readings</button>
                 </div>
           </Col>
         </Row>
