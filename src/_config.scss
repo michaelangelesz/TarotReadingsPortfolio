@@ -1,0 +1,39 @@
+// fonts
+$font-family: "Centra";
+$font-path-bold: "./assets/fonts/CentraNo2-Bold.ttf";
+$font-path-medium: "./assets/fonts/CentraNo2-Medium.ttf";
+$font-path-book: "./assets/fonts/CentraNo2-Book.ttf";
+$font-size-small: 18px;
+$font-size-large: 50px;
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-book: 400;
+$letter-spacing-default: 0.8px;
+
+// images
+$background-image: "./assets/images/background.jpg";
+
+// colors
+$background-color: #121212;
+$social-icon-background-color: rgba(217, 217, 217, 0.1);
+$white: #ffffff;
+$black: #000000;
+$green: #199119;
+$red: #ff0000;
+$text-grey: #b8b8b8;
+$tagline-background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+$skill-bx-background: #151515;
+$nav-pill-background: rgba(255, 255, 255, 0.1);
+$linear-gradient-background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+$image-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+$focus-color: rgba(255, 255, 255, 1);
+
+// border colors
+$border-light: 1px solid rgba(255, 255, 255, 0.5);
+$nav-pill-border: 1px solid rgba(255, 255, 255, 1);
+$first-pill-border-radius: 55px 0 0 55px;
+$third-pill-border-radius: 0 55px 55px 0;
+
+// animations
+$toggler-transition: all 300ms linear;
+$transition-ease: 0.3s ease-in-out;

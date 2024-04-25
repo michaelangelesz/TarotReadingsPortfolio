@@ -1,0 +1,41 @@
+@import "config";
+
+@mixin filter-effect {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+    hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+@mixin smooth-scroll {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+@mixin margin-padding {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin no-text-decoration {
+  text-decoration: none;
+}
+
+@mixin full-width {
+  width: 100%;
+}
+
+@mixin background-properties {
+  background-color: $background-color !important;
+  background-image: url($background-image);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@mixin container-properties {
+  max-width: 100%;
+  padding: 0 150px;
+}
+
+@mixin proj-txtx-animation {
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+}
