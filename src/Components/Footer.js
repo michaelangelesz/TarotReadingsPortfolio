@@ -12,7 +12,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} sm={6} className="footer-logo text-center text-sm-start">
-            <img src={logo} alt="WebDesigns by Mike" />
+            <img src={logo} alt="Mike M. Weisphal - Tarot Readings" />
             <h5>
             ✦ Mike M. Weisphal - Tarot Readings ✦
             </h5>

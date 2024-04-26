@@ -9,7 +9,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
                 <div>
                   <img src={headerImg} classname="astronaut" alt="Header Img" />
-                </div>
+                </div><br />
           </Col>
           <Col xs={12} md={6} xl={7}>
                 <div>
@@ -21,7 +21,7 @@ export const Banner = () => {
                     {`Insights from the Cards`}
                     <br />
                   </h2><br />
-                  <p>A student of the subject going on 30 years.<br /> Allow me to relay the most accurate message the cards have for your question
+                  <p>A student of the subject going on 30 years.<br /> Allow me to relay the most accurate message the cards have for you
                   </p>
                   <br />
                   <button type="button" onClick={() => window.open('https://venusandmarsrx.tumblr.com/tagged/sample')}>Sample Readings</button>
