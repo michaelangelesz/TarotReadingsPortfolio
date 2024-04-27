@@ -123,7 +123,7 @@ export const Contact = () => {
           <hr />
           <Col xs={12} md={4}>
             <h3>Address</h3>
-            <p>Raleigh, NC</p>
+            <p>Rocky Mount, NC</p>
           </Col>
           <Col xs={12} md={4}>
             <h3>Text/Mobile</h3>
@@ -131,7 +131,7 @@ export const Contact = () => {
           </Col>
           <Col xs={12} md={4}>
             <h3>Email</h3>
-            <p>mmweisphal@gmail.com</p>
+            <p>mmweisphal@outlook.com</p>
           </Col>
         </Row>
         <hr />

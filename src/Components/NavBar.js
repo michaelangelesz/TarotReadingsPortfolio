@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
 import logo from "../assets/images/logo-lion.png"
-import linkedIn from "../assets/images/nav-icon-linkedin.svg"
+// import linkedIn from "../assets/images/nav-icon-linkedin.svg"
 import discord from "../assets/images/nav-icon-discord.svg"
-import github from "../assets/images/nav-icon-github.svg"
+// import github from "../assets/images/nav-icon-github.svg"
 import facebook from "../assets/images/nav-icon-facebook.svg"
 import tumblr from "../assets/images/nav-icon-tumblr.svg"
 
@@ -56,9 +56,9 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              Services Offered
+              Services
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#projects"
               className={
                 activeLink === "projects" ? "active-navbar-link" : "navbar-link"
@@ -66,7 +66,7 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Projects
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="#contact"
               className={
@@ -88,12 +88,12 @@ export const NavBar = () => {
               <a href="https://discord.com/users/927145683662811157" target="_blank" rel="noreferrer">
                 <img src={discord} alt="Discord" />
               </a>
-              <a href="https://github.com/michaelangelesz" target="_blank" rel="noreferrer">
+              {/* <a href="https://github.com/michaelangelesz" target="_blank" rel="noreferrer">
                 <img src={github} alt="Github" />
-              </a>
-              <a href="https://www.linkedin.com/in/michael-m-weisphal/" target="_blank" rel="noreferrer">
+              </a> */}
+              {/* <a href="https://www.linkedin.com/in/michael-m-weisphal/" target="_blank" rel="noreferrer">
                 <img src={linkedIn} alt="LinkedIn" />
-              </a>
+              </a> */}
             </div>
           </span>
         </Navbar.Collapse>
