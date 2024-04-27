@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/images/logo-lion.png"
-import linkedIn from "../assets/images/nav-icon-linkedin.svg"
-import github from "../assets/images/nav-icon-github.svg"
+// import linkedIn from "../assets/images/nav-icon-linkedin.svg"
+// import github from "../assets/images/nav-icon-github.svg"
 import discord from "../assets/images/nav-icon-discord.svg"
 import facebook from "../assets/images/nav-icon-facebook.svg"
 import tumblr from "../assets/images/nav-icon-tumblr.svg"
@@ -28,12 +28,12 @@ export const Footer = () => {
               <a href="https://discord.com/users/927145683662811157" target="_blank" rel="noreferrer">
                 <img src={discord} alt="Discord" />
               </a>
-              <a href="https://github.com/michaelangelesz" target="_blank" rel="noreferrer">
+              {/* <a href="https://github.com/michaelangelesz" target="_blank" rel="noreferrer">
                 <img src={github} alt="Github" />
-              </a>
-              <a href="https://www.linkedin.com/in/michael-m-weisphal/" target="_blank" rel="noreferrer">
+              </a> */}
+              {/* <a href="https://www.linkedin.com/in/michael-m-weisphal/" target="_blank" rel="noreferrer">
                 <img src={linkedIn} alt="LinkedIn" />
-              </a>
+              </a> */}
             </div>
             <p className="copyright">
             Mike M. Weisphal © 2020-
