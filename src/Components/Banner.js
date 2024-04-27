@@ -24,7 +24,7 @@ export const Banner = () => {
                   <p>A student of the arts for 27 years, and studying the stars since childhood<br /> Allow me to relay the most accurate message the cards have for you
                   </p>
                   <br />
-                  <button type="button" onClick={() => window.open('https://venusandmarsrx.tumblr.com/tagged/sample')}>Sample Readings</button>
+                  {/* <button type="button" onClick={() => window.open('https://venusandmarsrx.tumblr.com/tagged/sample')}>Sample Readings</button> */}
                 </div>
           </Col>
         </Row>
